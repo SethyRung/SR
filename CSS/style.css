@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.My-nav {
+  padding: 0% 7.5%;
+  background-color: #2f0969;
+  height: 128px;
+}
+
+.Mylink {
+  margin-left: 100px;
+  font-size: 1.5rem;
+  color: rgb(199, 199, 199);
+}
+
+.Mylink:hover {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+  transition: 0.3s;
+}
+
+.navbar-brand:hover {
+  color: rgb(252, 247, 0);
+  transition: 1s;
+}
+
+#title {
+  margin: 10% 0;
+}
+
+.My-row {
+  padding: 0% 7.5%;
+  margin: 0;
+}
+
+.MyCol h1 {
+  margin-top: 7.5%;
+  /* font-size: 120px; */
+  font-size: 7.5rem;
+  font-weight: bold;
+  width: 554px;
+  color: #1b1955;
+}
+
+.MyCol h3 {
+  /* font-size: 62px; */
+  font-size: 3.875rem;
+  color: #1b1955;
+  width: 500px;
+  text-align: center;
+}
+
+.btn {
+  width: 335px;
+  height: 100px;
+  border-radius: 15px;
+  background: linear-gradient(#683a8d, #732d9b);
+  color: white;
+  font-family: "Segoe UI", Arial;
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-top: 8%;
+  margin-left: 8%;
+  opacity: 0.8;
+  transition: opacity 0.5s;
+}
+
+.btn i {
+  margin-right: 5%;
+}
+
+.btn:hover {
+  opacity: 1;
+  background: linear-gradient(#4c3a8d, #683a8d);
+  color: white;
+}
+
+.MyCol img {
+  width: 110%;
+  float: right;
+}
+
+.details {
+  text-align: center;
+}
+
+.profile-image {
+  width: 201px;
+  border-radius: 100px;
+  margin: 5% 0;
+}
+
+.details h1 {
+  font-size: 2.813rem;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+  color: #673ba1;
+}
+
+.details h2 {
+  margin: 5% 0;
+  font-size: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+  color: #471b84;
+}
+
+.details h3 {
+  width: 556px;
+  margin: 2.5% auto;
+  font-size: 1.5rem;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+  color: #150e43;
+}
+
+.details hr {
+  color: #8f4da5;
+  width: 140px;
+  margin: 5% auto;
+  top: 100px;
+  border-style: dotted;
+  border-width: 10px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.skill-row {
+  margin: 0 2.5%;
+}
+
+.skill-col {
+  margin: 0 0 5% 0;
+}
+
+.skill-logo {
+  width: 150px;
+  height: 150px;
+  margin-right: 30px;
+}
+
+.star {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.hidden-star {
+  width: 50px;
+  height: 50px;
+  visibility: hidden;
+}
+
+footer {
+  background: #2f0969;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container p {
+  margin-top: 20px;
+  font-size: 1.125rem;
+}
+.social {
+  margin: 10px auto;
+}
+
+.social a i {
+  color: white;
+  margin: 15px;
+  font-size: 2rem;
+}
+
+@media (max-width: 1440px) {
+  .MyCol img {
+    float: left;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .My-nav {
+    text-align: center;
+  }
+
+  .Mylink {
+    margin: 1.5% 0;
+  }
+
+  .MyCol {
+    text-align: center;
+  }
+
+  .MyCol h1 {
+    margin: 0;
+    /* font-size: 60px; */
+    font-size: 3.75rem;
+    text-align: center;
+    width: auto;
+  }
+
+  .MyCol h3 {
+    /* font-size: 31px; */
+    font-size: 1.938rem;
+    width: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .btn {
+    width: 180px;
+    height: 48px;
+    font-size: 0.938rem;
+    margin: 8% 0 0 0;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+  }
+
+  .MyCol img {
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  /* .skill-row {
+    margin: 0 10%;
+  }*/
+}
+
+@media (max-width: 720px) {
+  .navbar-brand {
+    width: 100px;
+  }
+
+  .profile-image {
+    width: 115px;
+  }
+  .details h1 {
+    font-size: 2.188rem;
+  }
+
+  .details h2 {
+    font-size: 1.5rem;
+  }
+
+  .details h3 {
+    width: 356px;
+    font-size: 1.25rem;
+  }
+
+  .skill-col {
+    margin: 25px 0;
+  }
+
+  .skill-logo {
+    width: 90px;
+    height: 90px;
+    margin-right: 30px;
+  }
+
+  .star {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .hidden-star {
+    width: 30px;
+    height: 30px;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 490px) {
+  .navbar-brand {
+    font-size: smaller;
+  }
+
+  .profile-image {
+    width: 75px;
+  }
+
+  .details h1 {
+    font-size: 1.875rem;
+  }
+
+  .details h2 {
+    font-size: 1.25rem;
+  }
+
+  .details h3 {
+    width: 256px;
+    font-size: 1.125rem;
+  }
+
+  .skill-col {
+    margin: 20px 0;
+  }
+
+  .skill-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+
+  .star {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+
+  .hidden-star {
+    width: 15px;
+    height: 15px;
+    visibility: hidden;
+  }
+}
